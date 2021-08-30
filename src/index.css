@@ -1,0 +1,176 @@
+* {
+  font-family: sans-serif;
+  color: #ffffff;
+}
+
+.main-title {
+  font-family: serif;
+  font-style: italic;
+  font-size: 69px;
+  top: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.question {
+  font-family: 'MonteCarlo', cursive;
+  animation: fadein 2s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 97vh;
+  background-image: url('./assets/background/Background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position:relative;
+  z-index:-1;
+}
+
+.app {
+  z-index: 1;
+  background-color: #273034;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 25px;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  animation: fadein 2s;
+}
+
+.score-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 28px;
+  margin-top: 35%;
+  margin-bottom: 15%;
+  justify-content: center;
+  align-content: center;
+  transition: 1;
+  animation: fadein 2s;
+  text-shadow: 4px 4px 4px #000;
+}
+
+.house {
+  display: flex;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
+  transition: 3;
+  animation: fadein 5s;
+  font-family: serif;
+  font-size: 52px;
+}
+
+.part-two {
+  animation: fadein 2s;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.question-section {
+  width: 100%;
+  position: relative;
+  animation: fadein 2s;
+}
+
+.question-count {
+  margin-bottom: 20px;
+  font-family: serif;
+  animation: fadein 0.5s;
+}
+
+.question-count span {
+  font-size: 36px;
+  font-family: serif;
+  animation: fadein 0.5s;
+}
+
+.question-text {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  animation: fadein 0.5s;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  animation: fadein 2s;
+}
+
+button {
+  width: 400px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 7px;
+  display: flex;
+  padding: 15px;
+  margin-bottom: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #927c6c;
+  cursor: pointer;
+}
+
+.intro-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:flex-start;
+}
+
+.intro-text {
+  align-self: center;
+  margin-bottom: 0px;
+  justify-content: center;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  line-height: 140%;
+}
+
+.start-button {
+  width: 200px;
+  font-size: 32px;
+  font-family: serif;
+  align-self: center;
+  color: #ffffff;
+  background-color: transparent;
+  border-radius: 7px;
+  display: flex;
+  padding: 10px;
+  margin-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #927c6c;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #814b4a;
+  transition: 0.5s;
+}
