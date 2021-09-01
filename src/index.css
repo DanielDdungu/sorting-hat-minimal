@@ -32,7 +32,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 97vh;
-  background-image: url('./assets/background/Background.jpg');
+  /* background-image: url('./assets/background/Background.jpg'); */
+  background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
   position:relative;

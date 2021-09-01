@@ -2,10 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { questions } from './data/Questions.js';
 
 export default function App() {
-	//Questions and house reveal setters
 	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [showQuiz, setShowQuiz] = useState(false);
-	const [showHouse, setShowHouse] = useState(false);
 	
 	// Total score per house setters
 	const [totalGryffindor, setGryffindor] = useState(0);
@@ -16,6 +13,9 @@ export default function App() {
 	//Final result setter
 	const [house, setHouse] = useState("Muggle");
 
+	const [showQuiz, setShowQuiz] = useState(false);
+	const [showHouse, setShowHouse] = useState(false);
+	
 	//Sorting function
 	const answerHandler = (gryffindor, slytherin, ravenclaw, hufflepuff) => {
 		setGryffindor(totalGryffindor + gryffindor);
@@ -45,7 +45,7 @@ export default function App() {
 	};
 	
 	const [banner, setBanner] = useState('')
-	const changeBanner = () => {
+	const changeBackground = () => {
 		if (house === 'Gryffindor' && showHouse===true) {
 			setBanner(require("./assets/banners/Gryffindor.jpg"));}
 		if (house === 'Slytherin' && showHouse===true) {
@@ -57,7 +57,7 @@ export default function App() {
 	};
 	// Always check which house has most points in order to reveal the respective banner
 	useEffect(() => {
-		changeBanner()
+		changeBackground()
 	});
 
 	return (

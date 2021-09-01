@@ -2,19 +2,19 @@ export const questions = [
     {
         questionText: 'What class interests you the most?',
         options: [
-            { optionText: 'Charms', gryffindor: 2, slytherin: 0, ravenclaw: 0, hufflepuff: 0 },
-            { optionText: 'Potion making', gryffindor: 0, slytherin: 2, ravenclaw: 0, hufflepuff: 0 },
-            { optionText: 'Defence against dark arts', gryffindor: 0, slytherin: 0, ravenclaw: 2, hufflepuff: 0 },
-            { optionText: 'Transfiguration', gryffindor: 0, slytherin: 0, ravenclaw: 0, hufflepuff: 2 },
+            { optionText: 'Charms', gryffindor: 2, slytherin: 1, ravenclaw: 2, hufflepuff: 1 },
+            { optionText: 'Potion making', gryffindor: 1, slytherin: 1, ravenclaw: 3, hufflepuff: 1 },
+            { optionText: 'Defence against dark arts', gryffindor: 3, slytherin: 3, ravenclaw: 1, hufflepuff: 0 },
+            { optionText: 'Transfiguration', gryffindor: 1, slytherin: 2, ravenclaw: 1, hufflepuff: 3 },
         ],
     },
     {
         questionText: "If you were part of a team project, you would...",
         options: [
-            { optionText: 'Do most of the work', gryffindor: 2, slytherin: 0, ravenclaw: 0, hufflepuff: 0 },
-            { optionText: 'Only do what you know', gryffindor: 0, slytherin: 0, ravenclaw: 0, hufflepuff: 0 },
-            { optionText: 'Do a bit of everything', gryffindor: 0, slytherin: 0, ravenclaw: 0, hufflepuff: 0 },
-            { optionText: 'Rely on others', gryffindor: 0, slytherin: 0, ravenclaw: 0, hufflepuff: 0 },
+            { optionText: 'Do most of the work', gryffindor: 1, slytherin: 3, ravenclaw: 1, hufflepuff: 1 },
+            { optionText: 'Only do what you know', gryffindor: 1, slytherin: 1, ravenclaw: 1, hufflepuff: 2 },
+            { optionText: 'Do a bit of everything', gryffindor: 3, slytherin: 0, ravenclaw: 2, hufflepuff: 2 },
+            { optionText: 'Rely on others', gryffindor: 0, slytherin: 2, ravenclaw: 1, hufflepuff: 3 },
         ],
     },
     {
