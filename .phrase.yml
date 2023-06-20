@@ -3,11 +3,11 @@ phrase:
   project_id: 9656207fb1a80c30d34845bc44524600
   push:
     sources:
-    - file: ./src/data/sample.json
+    - file: ../src/data/sample.json
       params:
         file_format: json
   pull:
     targets:
-    - file: ./src/data/sample.json
+    - file: ../src/data/sample.json
       params:
         file_format: json
