@@ -10,5 +10,4 @@ phrase:
   pull:
     targets:
     - file: ./src/phrase/translation.json
-      params:
         -
