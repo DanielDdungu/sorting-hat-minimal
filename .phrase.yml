@@ -1,6 +1,7 @@
 phrase:
   access_token: 06917e39b2d5846aeca184728650e84b19e6fbfe8086e65e5f39f854782406e5
   project_id: 9656207fb1a80c30d34845bc44524600
+  file_format: "json"
   push:
     sources:
     - file: ./src/phrase/translation.json
