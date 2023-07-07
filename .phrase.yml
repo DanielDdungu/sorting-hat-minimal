@@ -1,14 +1,14 @@
 phrase:
-  access_token: 06917e39b2d5846aeca184728650e84b19e6fbfe8086e65e5f39f854782406e5
-  project_id: 9656207fb1a80c30d34845bc44524600
+  access_token: 968908696c62a8800722d9c7df3c0c01106bc28f7c47e5c4d9d75e600687c982
+  project_id: 
   file_format: "json"
   push:
     sources:
-    - file: ./src/phrase/translation.json
+    - file: ./src/phrase/soporte-kw-es.json
       params:
-         locale_id: en
-        
+        file_format: simple_json
   pull:
     targets:
-    - file: ./src/phrase/translation.json
-        -
+    - file: ./src/phrase/soporte-kw-es.json
+      params:
+        file_format: simple_json
