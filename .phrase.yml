@@ -13,4 +13,4 @@ phrase:
     - file: ./src/phrase/translation.json
       params:
         file_format: simple_json
-         locale_name: "es-ES"
+         locale_id: "es-ES"
