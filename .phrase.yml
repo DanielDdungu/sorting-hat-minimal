@@ -1,13 +1,12 @@
 phrase:
   access_token: 3aa80918dd3cd4bec1a175a4cf061323c2a8d21e3fa6b21752ac00ff8ed19d43
   project_id: a10881511914cced736d97e9960af80c
-  file_format: "json"
   push:
     sources:
     - file: ./src/phrase/translation.json
       params:
         file_format: simple_json
-        locale_id: "es-Es"
+        language_id:"es-ES"
   pull:
     targets:
     - file: ./src/phrase/translation.json
