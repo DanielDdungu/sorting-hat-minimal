@@ -4,11 +4,13 @@ phrase:
   file_format: "json"
   push:
     sources:
-    - file: ./src/phrase/soporte-kw-es.json
+    - file: ./src/phrase/translation.json
       params:
         file_format: simple_json
+        locale_name: "en-Es"
   pull:
     targets:
-    - file: ./src/phrase/soporte-kw-es.json
+    - file: ./src/phrase/translation.json
       params:
         file_format: simple_json
+         locale_name: "pt-PT"
