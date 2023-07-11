@@ -6,7 +6,7 @@ phrase:
     - file: ./src/phrase/translation.json
       params:
         file_format: simple_json
-        language_id:"es-ES"
+        locale_id: "es-ES"
   pull:
     targets:
     - file: ./src/phrase/translation.json
