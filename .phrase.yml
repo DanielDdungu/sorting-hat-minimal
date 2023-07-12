@@ -13,3 +13,4 @@ phrase:
       params:
         file_format: simple_json
         locale_id: "es-ES"
+       
