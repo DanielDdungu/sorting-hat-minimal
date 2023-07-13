@@ -7,7 +7,7 @@ phrase:
       params:
         file_format: simple_json
         locale_id: "es-ES"
-        tags: "First-es-ES"
+        tags: "First-es-ES-V1"
   pull:
     targets:
     - file: ./src/phrase/translation.json
