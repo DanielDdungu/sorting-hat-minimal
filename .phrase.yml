@@ -2,6 +2,7 @@ phrase:
   access_token: 3aa80918dd3cd4bec1a175a4cf061323c2a8d21e3fa6b21752ac00ff8ed19d43
   project_id: da68fca27b6775edad9963019e0a905c
   file_format: "json"
+
   push:
     sources:
     - file: ./src/phrase/translation.json
@@ -9,10 +10,27 @@ phrase:
         file_format: simple_json
         locale_id: "es-ES"
         tags: "First-es-ES-V2"
+        update_translations: false (boolean)
+        update_descriptions: false (boolean)
+        skip_upload_tags: false (boolean)
+        autotranslate: false (boolean)
+        mark_reviewed: false (boolean)
+        
+
+        
   pull:
     targets:
-    - file: ./src/phrase/translation.json
+    - file: ./src/Locales/pt-translation.json
       params:
         file_format: simple_json
+        locale_id: ef5cd052c1f6ffdff8b5ec17b1ace4b6
+        tags: "First-es-ES-V2"
+        include_empty_translations: false (boolean)
+        include_unverified_translations: true (boolean)
+        encoding: ENCODING (string)
+        keep_notranslate_tags: false (boolean)
+
+
+
         
        
