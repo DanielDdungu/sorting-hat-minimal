@@ -25,10 +25,9 @@ phrase:
         file_format: simple_json
         locale_id: ef5cd052c1f6ffdff8b5ec17b1ace4b6
         tags: "First-es-ES-V2"
-        include_empty_translations: false (boolean)
-        include_unverified_translations: true (boolean)
-        encoding: ENCODING (string)
-        keep_notranslate_tags: false (boolean)
+        include_empty_translations: false
+        include_unverified_translations: true
+        keep_notranslate_tags: false 
 
 
 
