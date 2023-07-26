@@ -10,12 +10,10 @@ phrase:
         file_format: simple_json
         locale_id: "es-ES"
         tags: "First-es-ES-V2"
-        update_translations: false (boolean)
-        update_descriptions: false (boolean)
-        skip_upload_tags: false (boolean)
-        autotranslate: false (boolean)
-        mark_reviewed: false (boolean)
-        
+        update_translations: false 
+        update_descriptions: false 
+        skip_upload_tags: false 
+        autotranslate: false      
 
         
   pull:
